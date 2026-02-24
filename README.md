@@ -28,8 +28,33 @@ Audit and fix the 7 CDN misconfigurations that silently destroy SEO rankings -- 
 
 ## Installation
 
+### Option 1: CLI Install (Recommended)
+
+Use [npx skills](https://www.npmjs.com/package/skills) to install skills directly:
+
 ```bash
-claude install-plugin /path/to/claude-skills
+# Install all skills
+npx skills add jovanpanetie/claude-skills
+
+# Install specific skills
+npx skills add jovanpanetie/claude-skills --skill seo-cdn
+
+# List available skills
+npx skills add jovanpanetie/claude-skills --list
+```
+
+This automatically installs to your `.claude/skills/` directory.
+
+### Option 2: Claude Code Plugin
+
+Install via Claude Code's built-in plugin system:
+
+```
+# Add the marketplace
+/plugin marketplace add jovanpanetie/claude-skills
+
+# Install all skills
+/plugin install claude-skills
 ```
 
 ## Structure
