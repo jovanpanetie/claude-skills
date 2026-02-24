@@ -1,0 +1,21 @@
+{
+  "name": "claude-skills",
+  "owner": {
+    "name": "Jovan Panetie"
+  },
+  "metadata": {
+    "description": "Custom Claude Code skills for non technical profiles",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-skills",
+      "description": "Technical SEO skills: CDN configuration auditing, performance optimization, and crawlability verification",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/seo-cdn"
+      ]
+    }
+  ]
+}
