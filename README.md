@@ -1,6 +1,6 @@
 # Claude Skills
 
-Custom Claude Code skills for technical SEO auditing.
+Custom Claude Code skills for non technical profiles (more to come. open sources. feel free to open PR.)
 
 ## Skills
 
